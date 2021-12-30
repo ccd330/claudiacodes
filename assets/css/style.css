@@ -130,12 +130,10 @@ header nav ul li a {
 }
 .run-buddy-click {
   margin-bottom: 15px;
-  background-image: url("../images/hero-bg.jpeg");
   position: relative;
-  border: 5px solid #7ac0c2;
   text-decoration: none;
-  height: 200px;
   object-fit: cover;
+  top: 0;
 }
 
 .run-buddy-click a {
@@ -143,22 +141,27 @@ header nav ul li a {
   color: rgb(56, 55, 55);
 }
 
+.run-buddy-click img {
+  opacity: 0.6;
+}
+
 .box-text {
   background-color: #7ac0c2;
   margin-right: 750px;
   text-decoration: none;
-  vertical-align: bottom;
 }
 
 .box-text h4 {
   font-weight: lighter;
 }
 
+.box-bottom {
+  position: absolute;
+  bottom: 5px;
+}
+
 .marketing-click {
-  border: 5px solid #7ac0c2;
   margin-bottom: 15px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  position: relative;
 }
 
 .marketing-click a {
@@ -166,9 +169,11 @@ header nav ul li a {
   color: rgb(56, 55, 55);
 }
 
+.marketing-click img {
+  opacity: 0.6;
+}
+
 .robot-click {
-  border: 5px solid #7ac0c2;
-  background-image: url("../images/robots.jpeg");
   object-fit: fill;
   position: relative;
 }
@@ -176,6 +181,11 @@ header nav ul li a {
 .robot-click a {
   text-decoration: none;
   color: rgb(56, 55, 55);
+}
+
+.robot-click img {
+  opacity: 0.6;
+  width: 450px;
 }
 
 .contact-types {
@@ -199,22 +209,16 @@ footer {
   text-align: center;
 }
 
-.demo-wrap {
-  overflow: hidden;
-  position: relative;
+.run-buddy-click img:hover {
+  opacity: 1;
 }
 
-.demo-bg {
-  opacity: 0.6;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
+.marketing-click img:hover {
+  opacity: 1;
 }
 
-.demo-content {
-  position: relative;
+.robot-click img:hover {
+  opacity: 1;
 }
 
 /* MAIN BODY CONTENT ENDS */
