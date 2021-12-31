@@ -136,7 +136,7 @@ header nav ul li a {
 }
 
 .run-buddy-click {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   position: relative;
   text-decoration: none;
   object-fit: cover;
@@ -168,7 +168,8 @@ header nav ul li a {
 }
 
 .marketing-click {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .marketing-click a {
