@@ -12,6 +12,8 @@ html {
 header {
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin: 0px;
   width: 100%;
   background-color: rgb(56, 55, 55);
@@ -74,7 +76,7 @@ header nav ul li a {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 100%;
-  padding: 40px;
+  padding: 25px;
   justify-content: flex-end;
   position: relative;
   height: 90px;
@@ -206,6 +208,7 @@ header nav ul li a {
   text-decoration: underline;
   font-weight: normal;
   padding: 10px;
+  display: inline-flex;
   color: rgb(56, 55, 55);
 }
 
